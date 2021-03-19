@@ -1,11 +1,11 @@
 package Utility;
 
 public enum API_Resources {
-	Auth_SignUp("services/users/auth/signup"),
-    Auth_ValidateOTP("services/users/auth/validateOTP"),
-    Auth_SendOTP("services/users/auth/sendOTP"),
-    Auth_Signin("services/users/auth/signin"),
-    Auth_GetUserMenu("services/users/auth/getUserMenu");
+	Auth_SignUp("services/xxx"),
+    Auth_ValidateOTP("services/xxx"),
+    Auth_SendOTP("services/xxx"),
+    Auth_Signin("services/xxx"),
+    Auth_GetUserMenu("services/xxx");
 
     private String resource;
 
