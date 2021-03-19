@@ -30,6 +30,10 @@ public class Helper_func {
 			throw e;
 		}
 	}
+	
+	public void test() {
+		System.out.println("");;
+	}
 
 
 	public static String getGlobalValue(String key) throws IOException {
