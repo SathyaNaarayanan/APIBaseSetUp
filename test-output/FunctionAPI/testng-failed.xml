@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FunctionAPI]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CUS_TestCases(failed)">
+    <classes>
+      <class name="CUS.TC03_CUS_Auth_SendOTP">
+        <methods>
+          <include name="BeforeTest_LaunchURI"/>
+          <include name="Save_ResponseData"/>
+          <include name="setUp"/>
+          <include name="Test_SendOTP"/>
+        </methods>
+      </class> <!-- CUS.TC03_CUS_Auth_SendOTP -->
+    </classes>
+  </test> <!-- CUS_TestCases(failed) -->
+</suite> <!-- Failed suite [FunctionAPI] -->

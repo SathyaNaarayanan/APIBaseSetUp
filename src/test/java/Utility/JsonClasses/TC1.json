@@ -1,0 +1,9 @@
+[{
+    "data": {
+        "otp": "5467",
+        "userType": "CUS",
+        "uuid": "rxe5o01"
+    },
+    "message": "suc_otpSent",
+    "status": "success"
+}]

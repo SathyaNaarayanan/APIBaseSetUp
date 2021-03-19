@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FunctionAPI">
+
+
+	<test name="CUS_TestCases" preserve-order="true">
+		<classes>
+			<class name="CUS.TC01_CUS_Auth_SignUp" />
+			<class name="CUS.TC02_CUS_Auth_ValidateOTP" />
+			<class name="CUS.TC03_CUS_Auth_SendOTP" />
+		</classes>
+	</test>
+	<test name="TNT_TestCases" preserve-order="true">
+		<classes>
+			<class name="TNT.TC01_TNT_Auth_SignUp" />
+			<class name="TNT.TC02_TNT_Auth_ValidateOTP" />
+			<class name="TNT.TC03_TNT_Auth_SendOTP" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
