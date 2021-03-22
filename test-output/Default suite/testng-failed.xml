@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TNT.TC03_TNT_Auth_SendOTP">
+      <class name="TNT.TNT_Scenario">
         <methods>
-          <include name="Test_SendOTP"/>
+          <include name="Run_TestScenarios"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- TNT.TC03_TNT_Auth_SendOTP -->
+      </class> <!-- TNT.TNT_Scenario -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

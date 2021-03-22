@@ -60,6 +60,17 @@ public class Helper_func {
 		}
 	}
 	
+	public static void Write_Data_Into_Excel(String sheetName,String fieldName, int rowNum, String value) {
+		try {
+			ExcelOperation_New excelOperation = new ExcelOperation_New();
+			excelOperation.Save_DataToExcel(sheetName, fieldName, rowNum, value);
+			Thread.sleep(5000);
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
 	public static String Read_Payload(String sheetName, String resource) {
 		String myPayload = "";
 		try {

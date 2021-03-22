@@ -97,9 +97,6 @@ public class ExcelOperation {
 					cell.setCellValue(value);
 					break;
 				case "Bearer":
-					/*row = ws.createRow(2);
-					cell = row.createCell(0);
-					cell.setCellValue("Bearer");*/
 					cell = ws.getRow(2).createCell(1);
 					cell.setCellValue(value);
 					break;
